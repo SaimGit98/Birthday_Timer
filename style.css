@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.main{
+    width: auto;
+    height: 655px;
+    /* background: linear-gradient( #ccabd8, #86e3c3 50%, #42f4b0); */
+    background-image: url(./Cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+
+
+}
+header{
+    padding: 5px 8px;
+    display: flex;
+}
+header h3{
+   margin-top: 8px ;
+    color: #000000;
+    font-size: 20px;
+}
+
+.fa-bars{
+    margin-left: 39vh;
+    margin-top:8px;
+    font-size: 20px;
+    color: #f4a742;
+}
+
+
+
+
+
+
+
+
+
+.heading{
+    margin-left: 230px;
+    color: #ffff;
+    line-height: 2rem;
+}
+span{
+    font-weight: bolder;
+    color: #f4a742;
+    text-shadow: 1px 1px 18px#fff;
+}
+
+/* ____________________________ JS */
+.launch{
+   
+    display: flex;
+    color: white;
+
+    
+}
+.launch div{
+    flex-basis: 90px;
+    margin-left: 20px;
+}
+p{
+    font-size: larger;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 20%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 2%;
+  
+
+}
+h4{
+    font-weight: 900;
+    font-size: large;
+    color:#f4a742 ;
+    margin-top: 10px;
+    text-shadow: 1px 1px 20px #fff;
+}
+ 
+
+.wish{
+    width: 350px;
+    height: 250px;
+    margin-top: -90px;
+    margin-left: 7%;
+    display: flex;
+
+    
+}
+h3{
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h4{
+  font-size: x-large;
+}
+
+#birthday{
+    position: absolute;
+   bottom: 80px;
+   left: 109px;
+   color: #f4a742;
+   font-size: xx-large;
+}
+
+
+.end{
+    height: 406px;
+    width: 330px;
+
+
+}
+.endtab{
+    display: none;
+}
+.endlap{
+    display: none;
+}
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+.main{
+    background-image: url(./Cover\ tablet.jpg);
+}
+.end{
+    display: none;
+}
+    header h3{
+        font-size: 25px;
+    }
+    .fa-bars{
+        margin-left: 68%;
+    }
+
+    .heading{
+        margin-left: 409px;
+        margin-top: 5%;
+        font-size: 4vw;
+        line-height: 2rem;
+       
+    }
+    .launch div{
+        flex-basis: 110px;
+        margin-top: 20px;
+        margin-left: 50px ;
+         font-size: larger;    
+    }
+    h4{
+        margin-top: 12px;
+    }
+    #birthday{
+        position: absolute;
+       bottom: 133px;
+       left: 223px;
+       font-size: 30px;
+    }
+
+   
+    .endtab{
+        display: block;
+    width: 702px;
+    height: 532px;
+    }
+  }
+
+
+ /* @media screen and (min-width: 1024px) {
+.main{ 
+    background-image: url(./Laptop.jpg);
+    height: 800px;
+}
+    header h3{
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .fa-bars{
+        margin-left: 130vh;
+    }
+    .heading{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 4vw;
+        line-height: 3rem;
+       
+    }
+    .launch div{
+        flex-basis: 100px;
+        margin-top: 50px;
+        margin-left: 80px ;
+         font-size: x-large; 
+    }
+    
+    #happy{
+        margin-top: 20px;
+       font-size: 50px;
+        left: 34px;
+        
+       
+    }
+    #birthday{
+        font-size: 60px;
+       bottom: -105px;
+       left: 237px;
+
+    }
+    #in{
+      font-size: 20px;
+        bottom: -122px;
+        left: 313px;
+   
+    }
+    #advance{
+        position: absolute;
+   font-size: 60px;
+        bottom: -166px;
+    }
+}
+@media screen and (min-width: 1439px) {
+
+    header h3{
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .fa-bars{
+        margin-left: 110vh;
+    }
+    .heading{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 4vw;
+        line-height: 3.5rem;
+       
+    }
+    .launch div{
+        flex-basis: 100px;
+        margin-top: 50px;
+        margin-left: 100px ;
+         font-size: x-large; 
+    }
+    #happy{
+        margin-top: 20px;
+       font-size: 50px;
+        left: 34px;
+        
+       
+    }
+    #birthday{
+        font-size: 60px;
+       bottom: 76px;
+       left: 237px;
+
+    }
+    #in{
+      font-size: 20px;
+        bottom: 54px;
+        left: 313px;
+   
+    }
+    #advance{
+        position: absolute;
+   font-size: 60px;
+        bottom: 7px;
+    }
+} */
+
+
+
